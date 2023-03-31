@@ -9,5 +9,7 @@
 	</h1>
 	<hr>
 	<a href="hello/showForm">Get the form</a>
+	<br> <br>
+	<a href="student/showForm">Get the Student form</a>
 </body>
 </html>
