@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+<!-- jstl tag for using form tag -->
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html>
 <html>
@@ -34,6 +35,12 @@
 		
 		<br><br>
 		
+		 Operating Systems: 
+		<form:checkbox path="operatingSystem" value="Windows" /> Windows
+		<form:checkbox path="operatingSystem" value="Linux" /> Linux
+		<form:checkbox path="operatingSystem" value="Mac Os" /> Mac Os
+		
+		<br><br>
 		<input type="submit" value="submit">
 	
 	</form:form>
