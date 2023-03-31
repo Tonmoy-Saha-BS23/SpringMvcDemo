@@ -1,12 +1,20 @@
 package com.bs23.springdemo.mvc;
 
+import java.util.LinkedHashMap;
+
 public class Student {
 	private String firstName;
 	private String lastName;
 	private String country;
-	
+	private LinkedHashMap<String, String> countryOptions;
 	public Student() {
-		System.out.println("Student Object is Crerated");
+		countryOptions = new LinkedHashMap<>();
+		
+		countryOptions.put("BRA", "Brazil");
+		countryOptions.put("IND", "India");
+		countryOptions.put("BAN", "Bangladesh");
+		countryOptions.put("FRA", "France");
+		countryOptions.put("USA", "United States of America");
 	}
 	public String getFirstName() {
 		return firstName;
@@ -24,7 +32,10 @@ public class Student {
 		return country;
 	}
 	public void setCountry(String country) {
-		this.country = country;
+		this.country = countryOptions.get(country);
+	}
+	public LinkedHashMap<String, String> getCountryOptions() {
+		return countryOptions;
 	}
 
 }
