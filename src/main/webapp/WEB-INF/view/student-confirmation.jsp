@@ -9,6 +9,7 @@
 <body>
 	<h3>Student is Confirmed: ${student.firstName} ${student.lastName}</h3>
 	<h3>Country: ${student.country}</h3>
+	<h3>Favorite Language: ${student.favouriteLanguage}</h3>
 	<a href="showForm">Back</a>
 </body>
 </html>
