@@ -11,5 +11,7 @@
 	<a href="hello/showForm">Get the form</a>
 	<br> <br>
 	<a href="student/showForm">Get the Student form</a>
+	<br><br>
+	<a href="customer/showForm">Customer form</a>
 </body>
 </html>

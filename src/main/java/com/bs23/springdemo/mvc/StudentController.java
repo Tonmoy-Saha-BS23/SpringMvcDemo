@@ -12,7 +12,7 @@ public class StudentController {
 		System.out.println("Inside student controller class");
 	}
 	
-	@RequestMapping("showForm")
+	@RequestMapping("/showForm")
 	public String ShowForm(Model themodel) {
 		
 		// add student model to the object
