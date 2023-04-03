@@ -11,6 +11,7 @@
 	<h3>Last Name: ${customer.lastNameString}</h3>
 	<h3>Free Passes: ${customer.freePasses}</h3>
 	<h3>Postal Code: ${customer.postalCode}</h3>
+	<h3>Course Code: ${customer.courseCode}</h3>
 	<br>
 	<a href="showForm">Back</a>
 </body>
